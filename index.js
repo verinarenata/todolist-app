@@ -22,4 +22,5 @@ formTask.addEventListener("submit", (event) => {
 
   //7. append <li> ke <ul> wrappernya
   wrapperList.append(taskList);
+  inputForm.value = "";
 });
